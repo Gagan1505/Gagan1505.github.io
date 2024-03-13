@@ -1,6 +1,8 @@
 body{
     margin: 0%;
     background-color: rgb(248, 247, 247);
+    scroll-behavior: smooth;
+
 }
 
 a{
