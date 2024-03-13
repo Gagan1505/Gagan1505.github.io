@@ -1,0 +1,186 @@
+body{
+    margin: 0%;
+    background-color: rgb(248, 247, 247);
+}
+
+a{
+    text-decoration: none;
+}
+/* --------------------------------------------------------- */
+#nav{
+    display: inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(0, 152, 152);
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.navbar>.container-fluid{
+    background-color: rgb(173, 235, 235);
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+    padding: 70px 0px;
+    gap: 40px;
+
+}
+.contentin{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.content img{
+    height: 60vh;
+    width: 30vw;
+}
+
+.contentin button{
+    width: 20vw;
+    height: 7vh;
+    border: none;
+    background-color: rgb(212, 243, 165);
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana;
+    border-radius: 5px;
+    
+}
+.contentin button:hover{
+    background-color: greenyellow;
+    
+}
+
+.nav-link:hover{
+    border-bottom: solid 2px green;
+    border-radius: 3px;
+}
+.desc{
+    color: black;
+    font-family: monospace;
+}
+.desc a{
+    text-decoration: none;
+} 
+
+p{
+    text-align: justify;
+}
+
+
+.about{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    width: 50vw;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    gap: 60px;
+}
+
+.images img{
+    width: 5vw;
+    height: 9vh;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+    
+}
+
+.H1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+    text-shadow: 5px 0.5px 0.5px snow;
+    text-align: center;
+}
+
+.H5{
+    color: rgb(0, 136, 255);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+    gap: 40px;
+    padding: 70px 0px;
+
+}
+
+.projectin{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: none;
+    padding: 20px;
+    width:70vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.projectin button{
+    background-color: rgba(188, 188, 188, 0.4);
+    border: none;
+    padding: 0px 10px;
+    width: fit-content;
+    height: 5vh;
+}
+.projectin p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tech{
+    color: grey;
+}
+
+.projectin a{
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+    padding: 70px 0px;
+    
+}
+
+.contactin p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(74, 74, 74);
+    font-size: medium;
+}
+
+.contactin{
+    width: 55vw;
+}
+
+
